@@ -15,8 +15,8 @@
 	var defaultKey		= 'p7jZF5SBoBIA7NJylDVKMjefT95EljsG7MB1gKKECe7IKztR', // Unique master Xively API key to be used as a default
 		defaultFeeds	= [548383713], // Comma separated array of Xively Feed ID numbers
 		applicationName	= 'Solar Spot Comm meetgegevens', // Replaces Xively logo in the header
-		dataDuration	= '90days', // Default duration of data to be displayed // ref: https://xively.com/dev/docs/api/data/read/historical_data/
-		dataInterval	= 10800, // Default interval for data to be displayed (in seconds)
+		dataDuration	= '30days', // Default duration of data to be displayed // ref: https://xively.com/dev/docs/api/data/read/historical_data/
+		dataInterval	= 300, // Default interval for data to be displayed (in seconds)
 		dataColor	= '0A1922', // CSS HEX value of color to represent data (omit leading #)
 		hideForm	= 0; // To hide input form use value of 1, otherwise set to 0
 
